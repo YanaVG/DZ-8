@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    height: 420px;
+    width: 822px;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+}
+
+header {
+    color: black;
+    height: 120px;
+    width: 100%;
+    background-color: #ff9800;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 22px;
+    padding-top: 26px;
+    padding-left: 18px;
+    padding-bottom: 28px;
+}
+
+header p {
+    font-size: 14px;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+
+main {
+    width: 100%;
+}
+
+img {
+    width: 200px;
+}
+
+.London,
+.Paris,
+.Tokyo {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 200px;
+}
+
+.clear {
+    clear: both;
+    display: none;
+}
+
+.Tokyo {
+    position: relative;
+    bottom: 455px;
+    left: 550px;
+}
+
+main h2 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+main .box p {
+    width: 90%;
+    padding-top: 20px;
+}
+
+@media (max-width: 960px) {
+    .box {
+        width: 30%;
+    }
+    img {
+        display: block;
+    }
+}
+
+@media (min-width: 960px) {
+    .wrapper {
+        width: 420px;
+    }
+    header {
+        width: 100%;
+    }
+    .box {
+        display: block;
+        width: 70%;
+        margin-bottom: 30px;
+    }
+    .box h2 {
+        text-align: center;
+    }
+    .Paris {
+        margin-top: 30px;
+    }
+    .Paris .text_1 {
+        margin-top: 100px;
+        text-align: center;
+    }
+    .Paris .text_2 {
+        text-align: center;
+    }
+    .Tokyo {
+        position: relative;
+        bottom: 5px;
+        left: 5px;
+    }
+    .Tokyo .text_1 {
+        margin-top: 100px;
+        text-align: center;
+    }
+    .pictures {
+
+        width: 200px;
+        height: 10em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    img {
+        padding-right: 20px;
+    }
+    
+    .text_1 {
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+}
